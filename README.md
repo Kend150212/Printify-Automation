@@ -137,7 +137,7 @@ Choose from multiple AI writing styles for your product listings:
 - ✅ Images processed only when you initiate actions
 - ✅ Open-source and transparent
 
-Read our full [Privacy Policy](docs/privacy.html) and [Terms of Service](docs/terms.html).
+Read our full [Privacy Policy](https://github.com/Kend150212/Printify-Automation/blob/main/privacy) and [Terms of Service](https://github.com/Kend150212/Printify-Automation/blob/main/terms).
 
 ---
 
