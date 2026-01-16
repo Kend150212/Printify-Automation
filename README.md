@@ -12,7 +12,6 @@
   <a href="#features">Features</a> •
   <a href="#installation">Installation</a> •
   <a href="#quick-start">Quick Start</a> •
-  <a href="#pricing">Pricing</a> •
   <a href="#support">Support</a>
 </p>
 
@@ -91,22 +90,6 @@ Choose from multiple AI writing styles for your product listings:
 2. Click **"Add to Chrome"**
 3. Confirm the installation
 
-### Manual Installation (Developer Mode)
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/printify-automation.git
-
-# Open Chrome Extensions
-# Navigate to: chrome://extensions/
-
-# Enable "Developer mode" (top right)
-
-# Click "Load unpacked"
-
-# Select the cloned folder
-```
-
 ---
 
 ## 🚀 Quick Start
@@ -144,82 +127,6 @@ git clone https://github.com/yourusername/printify-automation.git
 2. Select product types
 3. Click **Generate** for AI titles/descriptions
 4. Click **Create** or **Publish**
-
----
-
-## 💰 Pricing
-
-<table align="center">
-  <tr>
-    <th>Free</th>
-    <th>Pro ⭐</th>
-    <th>Enterprise 🏢</th>
-  </tr>
-  <tr>
-    <td align="center"><h2>$0</h2><small>/month</small></td>
-    <td align="center"><h2>$19</h2><small>/month</small></td>
-    <td align="center"><h2>$49</h2><small>/month</small></td>
-  </tr>
-  <tr>
-    <td>✅ 10 products/day</td>
-    <td>✅ Unlimited products</td>
-    <td>✅ Unlimited products</td>
-  </tr>
-  <tr>
-    <td>✅ 100 products/month</td>
-    <td>✅ Priority AI generation</td>
-    <td>✅ Priority AI generation</td>
-  </tr>
-  <tr>
-    <td>✅ AI content generation</td>
-    <td>✅ All product types</td>
-    <td>✅ All product types</td>
-  </tr>
-  <tr>
-    <td>✅ 5 product types</td>
-    <td>✅ Multi-store support</td>
-    <td>✅ API access</td>
-  </tr>
-  <tr>
-    <td>❌ Multi-store</td>
-    <td>✅ Email support</td>
-    <td>✅ Priority support</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="#">Get Started</a></td>
-    <td align="center"><a href="#">Subscribe</a></td>
-    <td align="center"><a href="#">Contact Us</a></td>
-  </tr>
-</table>
-
----
-
-## 🛠️ Tech Stack
-
-- **Chrome Extension** - Manifest V3
-- **AI Integration** - Google Gemini, OpenAI GPT-4
-- **API** - Printify REST API
-- **Backend** - Node.js (optional server component)
-- **Languages** - JavaScript, HTML, CSS
-
----
-
-## 📁 Project Structure
-
-```
-printify-automation/
-├── manifest.json          # Extension manifest
-├── popup/                 # Side panel UI
-│   ├── popup.html
-│   ├── popup.css
-│   └── popup.js
-├── background/            # Service worker
-│   └── background.js
-├── lib/                   # Shared libraries
-├── assets/                # Icons & images
-├── docs/                  # Documentation
-└── server/                # Backend server (optional)
-```
 
 ---
 
