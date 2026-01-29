@@ -1,10 +1,10 @@
 # 🔒 Privacy Policy
 
-**Last updated:** January 16, 2026
+Last updated: January 28, 2026
 
 ---
 
-> **Summary:** We respect your privacy. Your API keys are stored locally on your device. We don't collect, store, or sell your personal data or designs.
+> **Summary:** We respect your privacy. Your API keys are stored locally on your device. We collect only what is needed to provide authentication/subscriptions and to keep your settings available across devices (non-sensitive settings only).
 
 ---
 
@@ -16,8 +16,9 @@ Printify Automation ("we", "our", or "us") is committed to protecting your priva
 
 ### 2.1 Information You Provide
 
-- **API Keys:** Printify, Gemini, and OpenAI API keys you enter are stored locally in your browser using Chrome's storage API. These keys never leave your device except when making API calls to the respective services.
-- **Account Information:** If you create an account, we store your email address and subscription status.
+- **API Keys (stored locally):** Printify, Gemini, and OpenAI API keys you enter are stored locally in your browser using Chrome's storage API. These keys are sent only to the relevant third-party API providers when you initiate an action (e.g., generate content, create products).
+- **Account Information (stored on our server):** If you create an account, we store your email address, password hash, subscription plan/status, and verification/reset metadata (e.g., verification codes or reset tokens).
+- **License Information (stored locally + on our server):** If you enter a license key, it is stored locally to unlock features; license validation occurs by sending the license key to our licensing API.
 
 ### 2.2 Information We Don't Collect
 
@@ -28,8 +29,8 @@ Printify Automation ("we", "our", or "us") is committed to protecting your priva
 
 ### 2.3 Automatically Collected Information
 
-- **Usage Statistics:** Basic usage counts (products created) for subscription limits
-- **Error Logs:** Anonymous error reports to improve the extension
+- **Usage Statistics:** Basic usage events/counts (e.g., number of products created) to enforce subscription limits and prevent abuse.
+- **Service/Request Metadata:** We may process standard server log data (e.g., request time, IP address, user agent) for security, rate-limiting, troubleshooting, and fraud prevention.
 
 ## 3. How We Use Your Information
 
@@ -39,12 +40,14 @@ We use the information we collect to:
 - Track subscription usage limits
 - Improve our services and fix bugs
 - Communicate important updates
+- Provide account features (login, email verification, password reset)
+- Sync non-sensitive user settings across devices when you are logged in
 
 ## 4. Data Storage and Security
 
 ### 4.1 Local Storage
 
-Your API keys and preferences are stored locally using Chrome's `chrome.storage.local` API. This data remains on your device and is not transmitted to our servers.
+Your API keys and certain preferences are stored locally using Chrome's `chrome.storage.local` API. **API keys are not synced to our servers.**
 
 ### 4.2 Server Storage
 
@@ -53,12 +56,16 @@ If you create an account, the following is stored on our secure servers:
 - Email address (for account identification)
 - Hashed password (we never store plain text passwords)
 - Subscription plan and usage statistics
+- Non-sensitive settings you choose to sync (e.g., UI preferences, selected options)
+
+Our server domain used by the extension is:
+- `https://autofy.kendymarketing.com`
 
 ### 4.3 Security Measures
 
 - ✅ All data transmission uses HTTPS encryption
 - ✅ Passwords are hashed using industry-standard algorithms
-- ✅ API keys are never logged or stored on our servers
+- ✅ API keys are stored locally and are not stored on our servers
 
 ## 5. Third-Party Services
 
@@ -74,6 +81,14 @@ If you use AI content generation, your text prompts are sent to Google or OpenAI
 
 - [Google Privacy Policy](https://policies.google.com/privacy)
 - [OpenAI Privacy Policy](https://openai.com/privacy)
+
+### 5.3 Our Backend (Authentication, Subscription, Settings)
+
+We operate a backend used for:
+- Account registration/login and session verification
+- Email verification and password reset
+- License verification and subscription usage tracking
+- Syncing non-sensitive settings across devices (when logged in)
 
 ## 6. Your Rights
 
@@ -91,6 +106,7 @@ To exercise these rights, contact us at [ken.d150212@gmail.com](mailto:ken.d1502
 - **Local Data:** Stored until you uninstall the extension or clear browser data
 - **Account Data:** Retained while your account is active; deleted within 30 days of account closure
 - **Usage Logs:** Retained for 90 days for subscription tracking
+- **Security Logs:** May be retained longer if necessary for security investigations, legal obligations, or dispute resolution
 
 ## 8. Children's Privacy
 
@@ -108,7 +124,7 @@ We may update this Privacy Policy from time to time. We will notify you of signi
 
 If you have questions about this Privacy Policy, please contact us:
 
-- **Email:** [ken.d150212@gmail.com](mailto:ken.d150212@gmail.com)
+- Email: automationprintify@gmail.com
 
 ---
 
